@@ -42,7 +42,8 @@ module NaturalNumberString
       end
       test '10000000000000000' do
         assert do
-          ::NaturalNumberString.zero_or_positive_integer_string?('10000000000000000') == true
+          ::NaturalNumberString
+            .zero_or_positive_integer_string?('10000000000000000') == true
         end
       end
     end
