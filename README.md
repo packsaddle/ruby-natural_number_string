@@ -41,6 +41,23 @@ NaturalNumberString.positive_integer_string?('0') #=> false
 
 ## API
 
+### NaturalNumberString.positive_integer_string?(value) -> boolean
+
+#### value
+
+*Required*
+
+value.
+
+
+### NaturalNumberString.zero_or_positive_integer_string?(value) -> boolean
+
+#### value
+
+*Required*
+
+value.
+
 
 ## Changelog
 
