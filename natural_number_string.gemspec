@@ -10,11 +10,11 @@ Gem::Specification.new do |spec|
   spec.email         = ['o.gata.ken@gmail.com']
 
   spec.summary       =
-    'TODO: Write a short summary, because Rubygems requires one.'
+    'Check the string is a natural number?'
   spec.description   =
-    'TODO: Write a longer description or delete this line.'
+    'Check the string is a natural number?'
   spec.homepage      =
-    "TODO: Put your gem's website or public repo URL here."
+    "https://github.com/packsaddle/ruby-natural_number_string"
   spec.license       = 'MIT'
 
   spec.files         =
