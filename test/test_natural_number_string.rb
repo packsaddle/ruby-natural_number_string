@@ -13,39 +13,39 @@ module NaturalNumberString
     sub_test_case 'not natural number string' do
       test 'nil' do
         assert do
-          ::NaturalNumberString.natural_number?(nil) == false
+          ::NaturalNumberString.natural_number_string?(nil) == false
         end
       end
       test 'empty string' do
         assert do
-          ::NaturalNumberString.natural_number?('') == false
+          ::NaturalNumberString.natural_number_string?('') == false
         end
       end
       test 'integer' do
         assert do
-          ::NaturalNumberString.natural_number?(1) == false
+          ::NaturalNumberString.natural_number_string?(1) == false
         end
       end
       test 'decimal string' do
         assert do
-          ::NaturalNumberString.natural_number?('1.1') == false
+          ::NaturalNumberString.natural_number_string?('1.1') == false
         end
       end
       test 'negative number string' do
         assert do
-          ::NaturalNumberString.natural_number?('-1') == false
+          ::NaturalNumberString.natural_number_string?('-1') == false
         end
       end
     end
     sub_test_case 'natural number string' do
       test '1' do
         assert do
-          ::NaturalNumberString.natural_number?('1') == true
+          ::NaturalNumberString.natural_number_string?('1') == true
         end
       end
       test '10000000000000000' do
         assert do
-          ::NaturalNumberString.natural_number?('10000000000000000') == true
+          ::NaturalNumberString.natural_number_string?('10000000000000000') == true
         end
       end
     end
@@ -55,39 +55,39 @@ module NaturalNumberString
     sub_test_case 'not natural number string' do
       test 'nil' do
         assert do
-          natural_number?(nil) == false
+          natural_number_string?(nil) == false
         end
       end
       test 'empty string' do
         assert do
-          natural_number?('') == false
+          natural_number_string?('') == false
         end
       end
       test 'integer' do
         assert do
-          natural_number?(1) == false
+          natural_number_string?(1) == false
         end
       end
       test 'decimal string' do
         assert do
-          natural_number?('1.1') == false
+          natural_number_string?('1.1') == false
         end
       end
       test 'negative number string' do
         assert do
-          natural_number?('-1') == false
+          natural_number_string?('-1') == false
         end
       end
     end
     sub_test_case 'natural number string' do
       test '1' do
         assert do
-          natural_number?('1') == true
+          natural_number_string?('1') == true
         end
       end
       test '10000000000000000' do
         assert do
-          natural_number?('10000000000000000') == true
+          natural_number_string?('10000000000000000') == true
         end
       end
     end
