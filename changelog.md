@@ -1,3 +1,15 @@
+<a name="0.3.0"></a>
+# [0.3.0](https://github.com/packsaddle/ruby-natural_number_string/compare/v0.2.1...v0.3.0) (2015-09-26)
+
+Drop `#natural_number_string?`.
+Use `#positive_integer_string?` or `zero_or_positive_integer_string?`.
+
+### Features
+
+* **natural_number:** natural_number_string? is not clear ([bdd8a4c](https://github.com/packsaddle/ruby-natural_number_string/commit/bdd8a4c))
+
+
+
 <a name="0.2.1"></a>
 ## [0.2.1](https://github.com/packsaddle/ruby-natural_number_string/compare/v0.2.0...v0.2.1) (2015-09-26)
 
