@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in integral_string.gemspec
+# Specify your gem's dependencies in natural_number_string.gemspec
 gemspec
 
 group :development do
