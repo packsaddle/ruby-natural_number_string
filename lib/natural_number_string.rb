@@ -6,4 +6,8 @@ module NaturalNumberString
   def natural_number_string?(value)
     value.is_a?(String) && /^\d+$/ =~ value ? true : false
   end
+
+  def positive_integer_string?(value)
+    value.is_a?(String) && /^[1-9]\d*$/ =~ value ? true : false
+  end
 end
