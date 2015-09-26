@@ -7,8 +7,56 @@
 
 ## Usage
 
+```ruby
+require 'natural_number_string'
+
+# Use include
+class Example
+  include NaturalNumberString
+  def example
+    positive_integer_string?('1') #=> true
+    positive_integer_string?('100000000000000') #=> true
+
+    positive_integer_string?(nil) #=> false
+    positive_integer_string?('') #=> false
+    positive_integer_string?(1) #=> false
+    positive_integer_string?('1.1') #=> false
+    positive_integer_string?('-1') #=> false
+    positive_integer_string?('0') #=> false
+  end
+end
+
+# Use direct
+NaturalNumberString.positive_integer_string?('1') #=> true
+NaturalNumberString.positive_integer_string?('100000000000') #=> true
+
+NaturalNumberString.positive_integer_string?(nil) #=> false
+NaturalNumberString.positive_integer_string?('') #=> false
+NaturalNumberString.positive_integer_string?(1) #=> false
+NaturalNumberString.positive_integer_string?('1.1') #=> false
+NaturalNumberString.positive_integer_string?('-1') #=> false
+NaturalNumberString.positive_integer_string?('0') #=> false
+```
+
 
 ## API
+
+### NaturalNumberString.positive_integer_string?(value) -> boolean
+
+#### value
+
+*Required*
+
+value.
+
+
+### NaturalNumberString.zero_or_positive_integer_string?(value) -> boolean
+
+#### value
+
+*Required*
+
+value.
 
 
 ## Changelog
