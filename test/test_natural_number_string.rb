@@ -1,10 +1,10 @@
 require_relative 'helper'
 
-module IntegralString
+module NaturalNumberString
   class TestVersion < Test::Unit::TestCase
     test 'version' do
       assert do
-        !::IntegralString::VERSION.nil?
+        !::NaturalNumberString::VERSION.nil?
       end
     end
   end

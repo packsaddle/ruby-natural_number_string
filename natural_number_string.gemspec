@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'integral_string/version'
+require 'natural_number_string/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'integral_string'
-  spec.version       = IntegralString::VERSION
+  spec.name          = 'natural_number_string'
+  spec.version       = NaturalNumberString::VERSION
   spec.authors       = ['sanemat']
   spec.email         = ['o.gata.ken@gmail.com']
 

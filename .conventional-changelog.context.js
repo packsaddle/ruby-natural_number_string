@@ -2,7 +2,7 @@
 var execSync = require('child_process').execSync;
 var URI = require('urijs');
 
-var gemspec = JSON.parse(execSync('bundle exec parse-gemspec-cli integral_string.gemspec'));
+var gemspec = JSON.parse(execSync('bundle exec parse-gemspec-cli natural_number_string.gemspec'));
 var homepageUrl = gemspec.homepage;
 var url = new URI(homepageUrl);
 var host = url.protocol() + '://' + url.authority();
