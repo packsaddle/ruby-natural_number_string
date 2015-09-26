@@ -1,5 +1,9 @@
 require 'natural_number_string/version'
 
 module NaturalNumberString
-  # Your code goes here...
+  module_function
+
+  def natural_number?(value)
+    value.is_a?(String) && /^\d+$/ =~ value ? true : false
+  end
 end
