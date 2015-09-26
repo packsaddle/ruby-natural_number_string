@@ -10,9 +10,9 @@ Gem::Specification.new do |spec|
   spec.email         = ['o.gata.ken@gmail.com']
 
   spec.summary       =
-    'Check the string is a natural number?'
+    'Check the string is a natural number.'
   spec.description   =
-    'Check the string is a natural number?'
+    'Check the string is a natural number.'
   spec.homepage      =
     'https://github.com/packsaddle/ruby-natural_number_string'
   spec.license       = 'MIT'

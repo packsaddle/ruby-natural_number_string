@@ -2,7 +2,7 @@
 
 [![Gem version][gem-image]][gem-url] [![Travis-CI Status][travis-image]][travis-url]
 
-> Check the string is a natural number?
+> Check the string is a natural number.
 
 
 ## Usage
