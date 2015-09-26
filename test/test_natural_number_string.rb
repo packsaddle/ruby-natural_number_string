@@ -45,7 +45,8 @@ module NaturalNumberString
       end
       test '10000000000000000' do
         assert do
-          ::NaturalNumberString.natural_number_string?('10000000000000000') == true
+          ::NaturalNumberString
+            .natural_number_string?('10000000000000000') == true
         end
       end
     end

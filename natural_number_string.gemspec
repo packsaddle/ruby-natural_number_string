@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.description   =
     'Check the string is a natural number?'
   spec.homepage      =
-    "https://github.com/packsaddle/ruby-natural_number_string"
+    'https://github.com/packsaddle/ruby-natural_number_string'
   spec.license       = 'MIT'
 
   spec.files         =
