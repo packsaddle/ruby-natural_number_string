@@ -23,7 +23,8 @@ module NaturalNumberString
   #   end
   # @example Use direct
   #   NaturalNumberString.zero_or_positive_integer_string?('1') #=> true
-  #   NaturalNumberString.zero_or_positive_integer_string?('100000000000') #=> true
+  #   NaturalNumberString
+  #   .zero_or_positive_integer_string?('100000000000') #=> true
   #   NaturalNumberString.zero_or_positive_integer_string?('0') #=> true
   #
   #   NaturalNumberString.zero_or_positive_integer_string?(nil) #=> false
