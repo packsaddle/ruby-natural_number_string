@@ -1,3 +1,9 @@
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/packsaddle/ruby-natural_number_string/compare/v0.3.1...v1.0.0) (2015-09-27)
+
+Add yard document.
+
+
 <a name="0.3.1"></a>
 ## [0.3.1](https://github.com/packsaddle/ruby-natural_number_string/compare/v0.3.0...v0.3.1) (2015-09-26)
 
