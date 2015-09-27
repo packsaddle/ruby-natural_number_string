@@ -1,11 +1,11 @@
 require 'natural_number_string/version'
 
+# Check the value is string of natural number.
 module NaturalNumberString
   module_function
 
-  # Check the string is a positive integer or zero
-  # @param value [Object] any object
-  # @return [Boolean] the string is a positive integer or zero
+  # Check the value is string of positive integer or zero
+  #
   # @example Use include
   #   class Example
   #     include NaturalNumberString
@@ -21,10 +21,11 @@ module NaturalNumberString
   #       zero_or_positive_integer_string?('-1') #=> false
   #     end
   #   end
+  #
   # @example Use direct
   #   NaturalNumberString.zero_or_positive_integer_string?('1') #=> true
   #   NaturalNumberString
-  #   .zero_or_positive_integer_string?('100000000000') #=> true
+  #     .zero_or_positive_integer_string?('100000000000') #=> true
   #   NaturalNumberString.zero_or_positive_integer_string?('0') #=> true
   #
   #   NaturalNumberString.zero_or_positive_integer_string?(nil) #=> false
@@ -32,13 +33,15 @@ module NaturalNumberString
   #   NaturalNumberString.zero_or_positive_integer_string?(1) #=> false
   #   NaturalNumberString.zero_or_positive_integer_string?('1.1') #=> false
   #   NaturalNumberString.zero_or_positive_integer_string?('-1') #=> false
+  #
+  # @param value [Object] any object
+  # @return [Boolean] the value is string of positive integer or zero
   def zero_or_positive_integer_string?(value)
     value.is_a?(String) && /^\d+$/ =~ value ? true : false
   end
 
-  # Check the string is a positive integer
-  # @param value [Object] any object
-  # @return [Boolean] the string is a positive integer
+  # Check the value is string of positive integer
+  #
   # @example Use include
   #   class Example
   #     include NaturalNumberString
@@ -54,6 +57,7 @@ module NaturalNumberString
   #       positive_integer_string?('0') #=> false
   #     end
   #   end
+  #
   # @example Use direct
   #   NaturalNumberString.positive_integer_string?('1') #=> true
   #   NaturalNumberString.positive_integer_string?('100000000000') #=> true
@@ -64,6 +68,9 @@ module NaturalNumberString
   #   NaturalNumberString.positive_integer_string?('1.1') #=> false
   #   NaturalNumberString.positive_integer_string?('-1') #=> false
   #   NaturalNumberString.positive_integer_string?('0') #=> false
+  #
+  # @param value [Object] any object
+  # @return [Boolean] the value is string of positive integer
   def positive_integer_string?(value)
     value.is_a?(String) && /^[1-9]\d*$/ =~ value ? true : false
   end
