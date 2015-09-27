@@ -1,3 +1,9 @@
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/packsaddle/ruby-natural_number_string/compare/v1.0.0...v1.0.1) (2015-09-27)
+
+Improve document.
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/packsaddle/ruby-natural_number_string/compare/v0.3.1...v1.0.0) (2015-09-27)
 
