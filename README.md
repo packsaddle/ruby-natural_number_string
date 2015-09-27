@@ -59,6 +59,8 @@ value.
 value.
 
 
+And [details][docs-url].
+
 ## Changelog
 
 [changelog.md](./changelog.md).
