@@ -1,6 +1,6 @@
 # NaturalNumberString
 
-[![Gem version][gem-image]][gem-url] [![Travis-CI Status][travis-image]][travis-url]
+[![Gem version][gem-image]][gem-url] [![Travis-CI Status][travis-image]][travis-url] [![yard docs][docs-image]][docs-url]
 
 > Check the string is a natural number.
 
@@ -103,3 +103,5 @@ The gem is available as open source under the terms of the [MIT License](http://
 [travis-image]: https://img.shields.io/travis/packsaddle/ruby-natural_number_string/master.svg?style=flat-square&label=build%20%28linux%29
 [gem-url]: https://rubygems.org/gems/natural_number_string
 [gem-image]: http://img.shields.io/gem/v/natural_number_string.svg?style=flat-square
+[docs-url]: http://www.rubydoc.info/gems/natural_number_string
+[docs-image]: https://img.shields.io/badge/yard-docs-blue.svg?style=flat-square
