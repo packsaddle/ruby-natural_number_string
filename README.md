@@ -2,7 +2,7 @@
 
 [![Gem version][gem-image]][gem-url] [![Travis-CI Status][travis-image]][travis-url] [![yard docs][docs-image]][docs-url]
 
-> Check the string is a natural number.
+> Check the value is string of natural number.
 
 
 ## Usage
@@ -47,7 +47,7 @@ NaturalNumberString.positive_integer_string?('0') #=> false
 
 *Required*
 
-value.
+Any Object.
 
 
 ### NaturalNumberString.zero_or_positive_integer_string?(value) -> boolean
@@ -56,10 +56,11 @@ value.
 
 *Required*
 
-value.
+Any Object.
 
 
-And [details][docs-url].
+And more [details][docs-url].
+
 
 ## Changelog
 
